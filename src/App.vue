@@ -1,8 +1,8 @@
 <template>
-  <Nav/>
+  <Nav />
 
   <main class="form-signin">
-    <router-view/>
+    <router-view />
   </main>
 </template>
 
@@ -10,8 +10,8 @@
 import Nav from "@/components/Nav";
 
 export default {
-  components: {Nav}
-}
+  components: { Nav },
+};
 </script>
 
 <style>
